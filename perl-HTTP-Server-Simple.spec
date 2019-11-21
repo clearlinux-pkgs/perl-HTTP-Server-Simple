@@ -4,13 +4,14 @@
 #
 Name     : perl-HTTP-Server-Simple
 Version  : 0.52
-Release  : 1
+Release  : 2
 URL      : https://cpan.metacpan.org/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz
 Summary  : 'Lightweight HTTP server'
 Group    : Development/Tools
 License  : Artistic-1.0-Perl
 Requires: perl-HTTP-Server-Simple-perl = %{version}-%{release}
+Requires: perl(CGI)
 BuildRequires : buildreq-cpan
 BuildRequires : perl(CGI)
 
