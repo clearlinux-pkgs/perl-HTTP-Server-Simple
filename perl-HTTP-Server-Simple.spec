@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Server-Simple
 Version  : 0.52
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz
 Summary  : 'Lightweight HTTP server'
