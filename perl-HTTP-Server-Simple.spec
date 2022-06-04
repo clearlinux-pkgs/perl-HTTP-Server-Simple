@@ -4,7 +4,7 @@
 #
 Name     : perl-HTTP-Server-Simple
 Version  : 0.52
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BP/BPS/HTTP-Server-Simple-0.52.tar.gz
 Summary  : 'Lightweight HTTP server'
@@ -86,6 +86,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Server/Simple.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Server/Simple/CGI.pm
-/usr/lib/perl5/vendor_perl/5.34.0/HTTP/Server/Simple/CGI/Environment.pm
+/usr/lib/perl5/*
